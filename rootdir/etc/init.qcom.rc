@@ -511,6 +511,7 @@ service ril-daemon2 /system/bin/rild -c 2
     socket rild-debug2 stream 660 radio system
     user root
     group radio cache inet misc audio sdcard_r sdcard_rw qcom_diag diag log net_raw
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
 service charger /charger
     class charger
