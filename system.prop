@@ -54,6 +54,10 @@ persist.data.iwlan.enable=true
 # Delayed Restart
 ro.am.reschedule_service=true
 
+# fling_velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
